@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>WeatherAppWJS</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WeatherAppWJS</h1>
+        <input type="text" id="nameOfCity" placeholder="Enter City Name...">
+        <button onclick="getWeather()">Weather Detail</button>
+
+        <div class="weather-info">
+            <h2 id="cityName"></h2>
+            <p id="localTime"></p>
+            <p id="temperature"></p>
+            <p id="condition"></p>
+            <p id="humidity"></p>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
